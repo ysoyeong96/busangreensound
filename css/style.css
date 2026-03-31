@@ -207,12 +207,12 @@ footer .finfo p{margin-bottom:5px;}
     .mb_gnb{display: block;}
     .menu_open{display: block;}
 
-    #m_menu{display: block; background-color: #1F2576; padding:25px 30px; box-sizing: border-box; position:fixed; top:0; left:100vw; width: 80vw; height:100vh; z-index: 999; display: flex; justify-content: space-between;}
+    #m_menu{display: block; background-color: #1F2576; padding:35px 30px; box-sizing: border-box; position:fixed; top:0; left:100vw; width: 80vw; height:100vh; z-index: 999; display: flex; justify-content: space-between;}
     #m_menu ul li a{display: block; color:#fff; margin-bottom:10px; padding:10px 15px; text-align: center; width: 50vw; border-radius: 10px; transition: background-color 0.3s;}
     #m_menu ul li a:hover{background-color: rgba(255,255,255,0.2);}
     #m_menu .m_close_btn button{background-color: transparent; border:transparent; cursor: pointer;} 
  
-    #main_visual{height: 40%;}
+    #main_visual{height: 40%; padding-top:50px; box-sizing: border-box;}
 
     #container > section{padding:80px 0;}
     section .subtext{text-align: center; margin-bottom:30px; word-break: keep-all;}
@@ -237,6 +237,7 @@ footer .finfo p{margin-bottom:5px;}
 
 
 @media (max-width:850px){
+
     
     #time-table .tab_area{ position:absolute; top:24vh; right:50%; }
     #container > #about{padding:80px 0 0;}
@@ -254,7 +255,7 @@ footer .finfo p{margin-bottom:5px;}
 
 /* ------- mobile -------- */
 @media (max-width:600px) {
-    .logo{width: 150px; padding-top:10px;}
+    .logo{width: 120px; padding-top:10px;}
     .hright .hr_btn:nth-child(1) {display: none;}
     
 

@@ -68,8 +68,9 @@ section .subtext span{display: block;}
 #time-table .inner {position:relative; overflow: visible;}
 
 /* 타임테이블 탭 */
-#time-table .tab_area{display: flex; position:absolute; top:0; right:0; z-index: 99;}
-#time-table .tab_area > div{cursor: pointer; padding:10px 15px; margin:0 5px; box-sizing: border-box; border-radius: 30px; border: 2px solid #fff; width: 120px; text-align: center; font-weight: 600;}
+#time-table .tt-top{justify-content: space-between;}
+#time-table .tab_area{display: flex;}
+#time-table .tab_area > div{cursor: pointer; padding:10px 15px; margin:0 5px; box-sizing: border-box; border-radius: 30px; border: 2px solid #fff; width: 120px; height: 54px; text-align: center; font-weight: 600;}
 #time-table .tab_area .tabs.on{background-color: #fff; color:#1F2576;}
 #time-table .tab{display:none}
 #time-table .tab.on{display:block}
@@ -222,7 +223,7 @@ footer .finfo p{margin-bottom:5px;}
     #line-up .bn_wr .pc_img{display: none;}
     #line-up .m_img{display: block;}
 
-    #time-table .tab_area{transform: translateX(50%);}
+    #time-table .tt-top{justify-content: center;}
    
     .textf02{margin:0;}
     #about .inner { flex-direction: column; align-items: center; text-align: center; }
@@ -237,9 +238,6 @@ footer .finfo p{margin-bottom:5px;}
 
 
 @media (max-width:850px){
-
-    
-    #time-table .tab_area{ position:absolute; top:25vh; right:50%; }
     #container > #about{padding:80px 0 0;}
 
 
@@ -264,7 +262,7 @@ footer .finfo p{margin-bottom:5px;}
     #time-table .inner {position:relative; overflow: visible;}
     #time-table .inner .swiperBox{transform: rotatez(0); max-width: auto;}
 
-    #time-table .inner .ttSwiper {display: flex; padding:8rem 0 0;}
+    #time-table .inner .ttSwiper {display: flex; padding:5rem 0 0;}
     .ttSwiper .swiper-slide {width: 100%;}
     .ttSwiper .swiper-wrapper .swiper-slide .item-box{display: flex; align-items: flex-end;   height: 160px;}
     .ttSwiper .swiper-wrapper .swiper-slide .item-box .item{width: 100%; height: 120px; padding: 30px; transition: transform 0.5s; transform: none;}

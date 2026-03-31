@@ -207,7 +207,7 @@ footer .finfo p{margin-bottom:5px;}
     .mb_gnb{display: block;}
     .menu_open{display: block;}
 
-    #m_menu{display: block; background-color: #1F2576; padding:35px 30px; box-sizing: border-box; position:fixed; top:0; left:100vw; width: 80vw; height:100vh; z-index: 999; display: flex; justify-content: space-between;}
+    #m_menu{display: block; background-color: #1F2576; padding:40px 30px 0; box-sizing: border-box; position:fixed; top:0; left:100vw; width: 80vw; height:100vh; z-index: 999; display: flex; justify-content: space-between;}
     #m_menu ul li a{display: block; color:#fff; margin-bottom:10px; padding:10px 15px; text-align: center; width: 50vw; border-radius: 10px; transition: background-color 0.3s;}
     #m_menu ul li a:hover{background-color: rgba(255,255,255,0.2);}
     #m_menu .m_close_btn button{background-color: transparent; border:transparent; cursor: pointer;} 
@@ -239,7 +239,7 @@ footer .finfo p{margin-bottom:5px;}
 @media (max-width:850px){
 
     
-    #time-table .tab_area{ position:absolute; top:24vh; right:50%; }
+    #time-table .tab_area{ position:absolute; top:220px; right:50%; }
     #container > #about{padding:80px 0 0;}
 
 

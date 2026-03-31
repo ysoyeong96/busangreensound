@@ -112,7 +112,7 @@ color: #000; border-radius: 1rem; transition: transform 0.5s; transform: rotateX
         #about .inner {display: flex;justify-content: space-between; align-items: flex-start;  gap: 50px;}
 
         #about .tit { width: 25%; word-break: keep-all; }
-        #about .tit p { margin-top: 20px; color: #666; }
+        #about .tit p { margin-top: 20px; }
 
         /* 포스터 슬라이더 영역 */
         #about .posterSwiper {width: 40%;  height: 700px;   overflow: hidden;position: relative; /* 페이지네이션 공간 확보 */

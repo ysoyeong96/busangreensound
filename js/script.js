@@ -94,7 +94,7 @@ function time_table() {
     if (slideWrapper) {
         slideWrapper.addEventListener('mouseenter', () => {
             // PC가 아닐 때만 작동하게 하려면 조건 추가 가능
-            swiper.autoplay.stop();
+            swiper.autoplay;
         });
         slideWrapper.addEventListener('mouseleave', () => {
             if (window.innerWidth < 768) {

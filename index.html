@@ -64,7 +64,7 @@
     <!-- mobile 메뉴 끝 -->
 
     <div id="main_visual">
-        <video preload="true" loop autoplay webkit-playsinline="webkit-playsinline" playsinline="playsinline">
+        <video preload="true" loop autoplay muted webkit-playsinline="webkit-playsinline" playsinline="playsinline">
             <source src="./video/main_visual.mp4" type="video/mp4">
         </video>
     </div>
@@ -456,6 +456,12 @@
                 'transition': 'margin-left 0.5s'
             });
         });
+                $('.m_list li a').click(function () {
+            $('#m_menu').css({
+                'margin-left': '0vw',
+                'transition': 'margin-left 0.5s'
+            });
+        });
 
     </script>
 
@@ -464,7 +470,7 @@
         var swiper = new Swiper(".ttSwiper", {
             slidesPerView: 8,
             spaceBetween: 20,
-            loop: true,
+            loop: false,
             autoplay: {
                 delay: 0,
                 disableOnInteraction: false,
